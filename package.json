@@ -1,4 +1,6 @@
 {
+
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev -p 80",
     "build": "next build",

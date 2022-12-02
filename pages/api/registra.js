@@ -1,4 +1,4 @@
-import { dados } from "../../../../../../.vscode/consumo/componentes/dados";
+import { dados } from "../../componentes/dados";
 
 export default function handler(req, res) {
   console.log(req.method, req.query, req.body)
