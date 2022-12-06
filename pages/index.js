@@ -1,6 +1,5 @@
-
 export default function inicio(){
     return (<div>
-        React 2
+        Monitoramento de consumo elétrico
         </div>)
 }

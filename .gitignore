@@ -1,3 +1,8 @@
 .next/
 node_modules
 package-lock.json
+public/react.html
+public/grafico.html
+pages/grafico-old.js
+pages/g2.js
+componente.js

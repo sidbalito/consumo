@@ -1,7 +1,7 @@
 import { dados } from "../../componentes/dados";
 
 export default function handler(req, res) {
-  console.log(req.method, req.query, req.body)
+  console.log(req)
   switch(req.method){
     case 'GET': resultado(res, req.query); break;
     case 'POST': resultado(res, req.body); break;
@@ -12,7 +12,7 @@ export default function handler(req, res) {
 function resultado(res, objeto){
   dados().adicionar(objeto)
   .then((resultado)=>{
-    console.log("Resultado: ", resultado)
+    console.log(new Date())
     let resposta = resultado.data
     if(!resposta) resposta = resultado.error 
     if(resposta)
