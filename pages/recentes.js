@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react'
 
-export default function MyComponent() {
+export default async function MyComponent() {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([{"data_hora":'2022-12-03'}]);
