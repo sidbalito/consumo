@@ -23,7 +23,7 @@ export default function Página(){
             Object.getOwnPropertyNames(dados[0]).forEach(item=>{if(item!='data_hora')campos.push(item)})
         }
         dados.forEach(element => {
-            element.dataHora = element.data_hora.substring(1,16)
+            element.dataHora = element.data_hora.substring(0,16)
         });
         let indice = 0;
         console.log("Exceção:", (erro.ocorreu || itens.length == 0))
