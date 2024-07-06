@@ -27,7 +27,7 @@ export default function Página(){
         }
         console.log(campos)
         dados.forEach(element => {
-            element.dataHora = element.data_hora.substring(1,16)
+            element.dataHora = element.data_hora.substring(0,16)
         });
         let indice = 0;
         return(
