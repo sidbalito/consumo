@@ -6,7 +6,7 @@
 
     "dev": "next dev -p 80",
 
-    "build": "next build",
+    "build": "next build --force",
 
     "start": "next start -p 80"
 
